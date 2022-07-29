@@ -20,4 +20,8 @@
 >
 >
 小红书
-* [去开屏广告@zmqcherish](https://github.com/zmqcherish/proxy-script/blob/main/cherish.conf)
+* [去开屏广告@zmqcherish](https://github.com/zmqcherish/proxy-script/blob/main/cherish.conf#L46)
+>
+>
+网易云音乐
+* [去广告@zqzess](https://github.com/zqzess/rule_for_quantumultX/blob/master/QuantumultX/rewrite/MyRewrite.conf#L208)
