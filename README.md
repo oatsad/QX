@@ -33,9 +33,11 @@
 哔哩哔哩
 * [去广告@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/bilibili)
 * [去广告@app2smile](https://github.com/app2smile/rules/blob/master/module/bilibili-qx.conf)
-* [番剧开启1080p+@zqzess](https://github.com/zqzess/rule_for_quantumultX/blob/master/js/backup/bilifj.js)
+* [番剧开启1080p+@NobyDa](https://github.com/zqzess/rule_for_quantumultX/blob/master/js/backup/bilifj.js)
 >
 >
 spotify
 * [会员解锁@app2smile](https://github.com/app2smile/rules/blob/master/js/spotify-proto.js)
 
+youtube
+* [去广告@DivineEngine](https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Rewrite/Block/YouTubeAds.conf)
