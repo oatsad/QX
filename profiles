@@ -7,13 +7,13 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubuserc
 fallback_udp_policy=direct
 
 [dns]
-server=114.114.114.114
-server=202.141.176.93 
-server=202.141.178.13
-server=117.50.10.10
+no-system
+no-ipv6
+server=119.29.29.29
 server=223.5.5.5
-server=119.29.29.29:53
-server=119.28.28.28
+server=8.8.8.8
+server=114.114.114.114
+server=8.8.4.4:53
 
 [policy]
 
@@ -26,11 +26,15 @@ server=119.28.28.28
 [server_local]
 
 [filter_local]
+host-suffix, local, direct
 ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 17.0.0.0/8, direct
+ip-cidr, 100.64.0.0/10, direct
 ip-cidr, 127.0.0.0/8, direct
 ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
+geoip, cn, direct
 final, proxy
 
 [rewrite_local]
