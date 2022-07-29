@@ -1,4 +1,6 @@
-# Quantumult X
+
+分流规则、重写规则及脚本
+---
 去广告
 * [去广告@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)
 * [AllInOne@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rewrite/QuantumultX/AllInOne)
@@ -25,3 +27,14 @@
 >
 网易云音乐
 * [去广告@zqzess](https://github.com/zqzess/rule_for_quantumultX/blob/master/QuantumultX/rewrite/MyRewrite.conf#L208)
+>
+>
+spotify
+*s会员解锁@app2smile
+* [解锁@I-am-R-E](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/NeteaseMusic/AgentNode)
+>
+>
+哔哩哔哩
+* [去广告@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master/script/bilibili)
+
+
