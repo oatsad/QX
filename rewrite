@@ -1,4 +1,4 @@
-hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, *.xiaohongshu.com
+hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, *.xiaohongshu.com, m.ads.8le8le.com,iadmusicmat.music.com
 
 # 淘宝比价
 ^http://.+/amdc/mobileDispatch url script-request-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
@@ -22,3 +22,8 @@ hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, 
 
 # 删除小红书开屏广告 @zmqcherish
 ^https://edith.xiaohongshu.com/api/sns/v2/system_service/splash_config url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/customize.js
+
+# 去网易云音乐广告 @zqzess
+^https?:\/\/iadmusicmat\.music\.126\.net\/.+\.jpg url reject
+^http:\/\/interface\.music\.163\.com\/eapi\/ad\/config\/get url reject
+^https?:\//m\.ads\.8le8le\.com\/adShow url reject
