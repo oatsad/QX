@@ -41,3 +41,15 @@ spotify
 
 youtube
 * [去广告@DivineEngine](https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Rewrite/Block/YouTubeAds.conf)
+>
+>
+部分网页
+* [去广告@limbopro](https://github.com/limbopro/Adblock4limbo/blob/main/Adblock4limbo.conf)
+* [去知乎网页广告@limbopro](https://github.com/limbopro/Adblock4limbo/blob/main/Zhihu.conf)
+
+
+
+
+
+
+
