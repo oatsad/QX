@@ -13,3 +13,11 @@
 >
 微信
 * [去公众号广告@NobyDa](https://github.com/NobyDa/Script/blob/master/QuantumultX/File/Wechat.js)
+>
+>
+微博
+* [去开屏广告及推广模块@zmqcherish](https://github.com/zmqcherish/proxy-script/blob/main/cherish.conf)
+>
+>
+小红书
+* [去开屏广告@zmqcherish](https://github.com/zmqcherish/proxy-script/blob/main/cherish.conf)
