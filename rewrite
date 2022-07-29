@@ -1,4 +1,4 @@
-hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, *.xiaohongshu.com, m.ads.8le8le.com,iadmusicmat.music.com
+hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, *.xiaohongshu.com, m.ads.8le8le.com,iadmusicmat.music.com, spclient.wg.spotify.com, app.bilibili.com, grpc.biliapi.ne, api.bilibili.com
 
 # 淘宝比价
 ^http://.+/amdc/mobileDispatch url script-request-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
@@ -12,7 +12,7 @@ hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, 
 # 京东历史比价 @yichahucha
 #^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 
-# 去微信公众号广告 @Nobyda
+# 去微信公众号广告 @NobyDa
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 
 # 微博去广告以及去除各部分推广模块 @zmqcherish
@@ -27,3 +27,13 @@ hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, 
 ^https?:\/\/iadmusicmat\.music\.126\.net\/.+\.jpg url reject
 ^http:\/\/interface\.music\.163\.com\/eapi\/ad\/config\/get url reject
 ^https?:\//m\.ads\.8le8le\.com\/adShow url reject
+
+#bilibili去广告 @app2smile
+^https:\/\/app\.bilibili\.com\/x\/(v2\/(splash\/(list|show)|feed\/index\?)|resource\/show\/tab\/v2) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-json.js
+^https:\/\/app\.bilibili\.com\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js
+#番剧开启1080P+ @zqzess
+^https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) url script-response-body https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/backup/bilifj.js
+
+# spotify会员 @app2smile
+^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+
