@@ -1,4 +1,4 @@
-hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, *.xiaohongshu.com, m.ads.8le8le.com,iadmusicmat.music.com, spclient.wg.spotify.com, app.bilibili.com, grpc.biliapi.ne, api.bilibili.com
+hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, *.xiaohongshu.com, m.ads.8le8le.com,iadmusicmat.music.com, spclient.wg.spotify.com, app.bilibili.com, grpc.biliapi.ne, api.bilibili.com, *.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com
 
 # 淘宝比价
 ^http://.+/amdc/mobileDispatch url script-request-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
@@ -28,12 +28,19 @@ hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, 
 ^http:\/\/interface\.music\.163\.com\/eapi\/ad\/config\/get url reject
 ^https?:\//m\.ads\.8le8le\.com\/adShow url reject
 
-#bilibili去广告 @app2smile
+# bilibili去广告 @app2smile
 ^https:\/\/app\.bilibili\.com\/x\/(v2\/(splash\/(list|show)|feed\/index\?)|resource\/show\/tab\/v2) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-json.js
 ^https:\/\/app\.bilibili\.com\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js
-#番剧开启1080P+ @zqzess
+# 番剧开启1080P+ @NobyDa
 ^https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) url script-response-body https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/backup/bilifj.js
 
 # spotify会员 @app2smile
 ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
 
+# YouTube去广告 @DivineEngine
+(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break url reject
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject
