@@ -16,7 +16,7 @@
 >
 >
 微博
-* [去开屏广告及推广模块@zmqcherish](https://github.com/zmqcherish/proxy-script/blob/main/cherish.conf)
+* [去开屏广告及推广模块@zmqcherish](https://github.com/zmqcherish/proxy-script/blob/main/cherish.conf#L34)
 >
 >
 小红书
