@@ -11,14 +11,14 @@ hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, 
 ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=queryMaterialAdverts url reject
 ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ url reject
 
->>>
+
 
 # 去微信公众号广告 @NobyDa
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 # 去广告 @DivineEngine
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement) url reject
 
->>>
+
 
 # 微博去广告以及去除各部分推广模块 @zmqcherish
 ^https?://m?api\.weibo\.c(n|om)/2/(cardlist|searchall|page|messageflow|statuses/(unread_)?friends(/|_)timeline|groups/timeline|statuses/(unread_hot_timeline|extend|video_mixtimeline)|profile/(me|statuses)|video/(community_tab|remind_info|tiny_stream_video_list)|checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item|search/(finder|container_timeline|container_discover)) url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
@@ -29,14 +29,14 @@ hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, 
 ^https?:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua url reject
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads url reject
 
->>>
+
 
 # 删除小红书开屏广告 @zmqcherish
 ^https://edith.xiaohongshu.com/api/sns/v2/system_service/splash_config url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/customize.js
 ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config url reject
 ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/ url reject
 
->>>
+
 
 # 去网易云音乐广告 @zqzess
 ^https?:\/\/iadmusicmat\.music\.126\.net\/.+\.jpg url reject
@@ -45,7 +45,7 @@ hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, 
 # 去广告 @DivineEngine
 ^https?:\/\/interface(\d)?.music.163.com\/eapi\/ad\/ url reject
 
->>>
+
 
 # bilibili去广告 @app2smile
 ^https:\/\/app\.bilibili\.com\/x\/(v2\/(splash\/(list|show)|feed\/index\?)|resource\/show\/tab\/v2) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-json.js
@@ -78,12 +78,12 @@ hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, 
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash url reject-dict
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash url reject-dict
 
->>>
+
 
 # spotify会员 @app2smile
 ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
 
->>>
+
 
 # YouTube去广告 @DivineEngine
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
@@ -93,7 +93,7 @@ hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, 
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject
 
->>>
+
 
 # 去除部分网页广告 @limbopro
 # 知道搜索广告(baidu) 
