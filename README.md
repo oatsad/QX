@@ -58,7 +58,10 @@ youtube
 部分网页
 * [去广告@limbopro](https://github.com/limbopro/Adblock4limbo/blob/main/Adblock4limbo.conf)
 * [去知乎网页广告@limbopro](https://github.com/limbopro/Adblock4limbo/blob/main/Zhihu.conf)
-
+>
+>
+任务
+* 京东签到等多个脚本 [@yyn168](https://github.com/yyn618/QuantumultX-Script/blob/main/JD_Task.json)
 
 
 
