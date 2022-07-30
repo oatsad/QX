@@ -36,7 +36,7 @@
 >
 >
 网易云音乐
-* [去广告@zqzess](https://github.com/zqzess/rule_for_quantumultX/blob/master/QuantumultX/rewrite/MyRewrite.conf#L208)
+* [去广告@zqzess](https://github.com/zqzess/rule_for_quantumultX/blob/master/QuantumultX/rewrite/MyRewrite.conf#L140)
 * [去广告@DivineEngine](https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Rewrite/Block/Advertising.conf#L259)
 * [解锁@I-am-R-E](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/NeteaseMusic/AgentNode)
 >
