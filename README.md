@@ -61,7 +61,7 @@ youtube
 >
 >
 任务
-* 京东签到等多个脚本 [@yyn168](https://github.com/yyn618/QuantumultX-Script/blob/main/JD_Task.json)
+* [京东签到等多个脚本@yyn168](https://github.com/yyn618/QuantumultX-Script/blob/main/JD_Task.json)
 
 
 
