@@ -11,22 +11,27 @@
 >
 淘宝京东
 * [比价@yichahucha](https://github.com/yichahucha/surge)
+* [去京东广告@DivineEngine](https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Rewrite/Block/Advertising.conf#L205)
 >
 >
 微信
 * [去公众号广告@NobyDa](https://github.com/NobyDa/Script/blob/master/QuantumultX/File/Wechat.js)
+* [去广告@DivineEngine](https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Rewrite/Block/Advertising.conf#L362)
 >
 >
 微博
 * [去开屏广告及推广模块@zmqcherish](https://github.com/zmqcherish/proxy-script/blob/main/cherish.conf#L34)
+* [去广告@DivineEngine](https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Rewrite/Block/Advertising.conf#L308)
 >
 >
 小红书
 * [去开屏广告@zmqcherish](https://github.com/zmqcherish/proxy-script/blob/main/cherish.conf#L46)
+* [去广告@DivineEngine](https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Rewrite/Block/Advertising.conf#L407)
 >
 >
 网易云音乐
 * [去广告@zqzess](https://github.com/zqzess/rule_for_quantumultX/blob/master/QuantumultX/rewrite/MyRewrite.conf#L208)
+* [去广告@DivineEngine](https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Rewrite/Block/Advertising.conf#L259)
 * [解锁@I-am-R-E](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/NeteaseMusic/AgentNode)
 >
 >
