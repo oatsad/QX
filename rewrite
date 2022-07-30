@@ -1,4 +1,4 @@
-hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weibointl.api.weibo.cn, *.xiaohongshu.com, m.ads.8le8le.com,iadmusicmat.music.com, interface*.music.163.com, spclient.wg.spotify.com, app.bilibili.com, grpc.biliapi.ne, api.bilibili.com, *.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com, redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com, www.baidu.com, m.baidu.com, zhidao.baidu.com, ddrk.me, www.zhihu.com
+hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weibointl.api.weibo.cn, *.xiaohongshu.com, m.ads.8le8le.com,iadmusicmat.music.com, *nstool.netease.com, m.ads.8le8le.com, iadmusicmat.music.com, interface*.music.163.com, spclient.wg.spotify.com, app.bilibili.com, grpc.biliapi.ne, api.bilibili.com, *.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com, redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com, www.baidu.com, m.baidu.com, zhidao.baidu.com, ddrk.me, www.zhihu.com
 
 # 淘宝历史比价 @yichahucha
 ^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
@@ -44,6 +44,11 @@ hostname= trade-acs.m.taobao.com, api.m.jd.com, mp.weixin.qq.com, api.weibo.cn, 
 ^https?:\//m\.ads\.8le8le\.com\/adShow url reject
 # 去广告 @DivineEngine
 ^https?:\/\/interface(\d)?.music.163.com\/eapi\/ad\/ url reject
+# 去广告 @yyn168
+^https?:\/\/iadmusicmat\.music\.126\.net\/.+\.jpg url reject
+^http:\/\/interface\.music\.163\.com\/eapi\/ad\/config\/get url reject
+^https?:\//m\.ads\.8le8le\.com\/adShow url reject
+^https://only\b.*nstool.netease.com\/info.js\?referer=https:\/\/nstool.netease.com\/info.js url reject
 
 
 
