@@ -1,4 +1,4 @@
-# 收集个人有需要的规则和脚本，感谢大佬们
+# 仅收集个人需要的规则和脚本，感谢大佬们
 
 * [Global@DivineEngine](https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Global.list)
 * [China@DivineEngine](https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/China.list)
