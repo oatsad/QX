@@ -59,7 +59,7 @@ youtube
 >
 >
 迅雷
-*[解锁vip@Marol62926](https://github.com/Marol62926/Quantumultx/blob/main/xunlei.conf)
+* [解锁vip@Marol62926](https://github.com/Marol62926/Quantumultx/blob/main/xunlei.conf)
 >
 >
 task
