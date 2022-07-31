@@ -58,8 +58,13 @@ youtube
 * [去知乎网页广告@limbopro](https://github.com/limbopro/Adblock4limbo/blob/main/Zhihu.conf)
 >
 >
-任务
+迅雷
+*[解锁vip@Marol62926](https://github.com/Marol62926/Quantumultx/blob/main/xunlei.conf)
+>
+>
+task
 * [京东签到等多个脚本@yyn168](https://github.com/yyn618/QuantumultX-Script/blob/main/JD_Task.json)
+
 
 
 
