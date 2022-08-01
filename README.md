@@ -56,6 +56,7 @@ youtube
 部分网页
 * [去广告@limbopro](https://github.com/limbopro/Adblock4limbo/blob/main/Adblock4limbo.conf)
 * [去知乎网页广告@limbopro](https://github.com/limbopro/Adblock4limbo/blob/main/Zhihu.conf)
+* [网页优化@ddgksf2013](https://github.com/ddgksf2013/Cuttlefish/blob/master/Html/WebAdBlock.conf)
 >
 >
 迅雷
