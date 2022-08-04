@@ -99,12 +99,12 @@
 "*/60 0 * * * https://raw.githubusercontent.com/pwbty/surge_script/efb2bcbdcabe0efba9257f74593ddc39aca8cfe6/qtt/qtt.js, tag=趣头条",
 "*/10 5-23 * * * * * * http://script.frp.aiuyo.com:8680/scripts/slyd.js, tag=书路阅读",
       
-"0 55 8-22 * * * https://github.com/JDWXX/jd_job/blob/master/ks/ks_fruit.js, tag=快手极速版-快手果园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
-"0 55 7 * * * https://github.com/JDWXX/jd_job/blob/master/ks/ks_fruit_zz.js, tag=快手极速版-快手果园自动种植, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
-"38 9-19 * * * https://raw.githubusercontent.com/leafxcy/JavaScript/main/ksjsb.js, tag=快手极速版",
-"22 10-20 * * * https://raw.githubusercontent.com/leafxcy/JavaScript/main/ks.js, tag=快手",
-"0 55 8-22 * * * https://github.com/JDWXX/jd_job/blob/master/ks/ksjsb_100.js, tag=快手极速版-提现100元, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
-"2 0 0,10,16,22 * * * https://github.com/JDWXX/jd_job/blob/master/ks/ksjsb_zzz.js, tag=快手极速版-周周赚十五万金币, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
+"0 55 8-22 * * * https://raw.githubusercontent.com/hmhboy530/ks/main/ks_fruit.js, tag=快手极速版-快手果园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
+"0 55 7 * * * https://raw.githubusercontent.com/hmhboy530/ks/main/ks_fruit_zz.js, tag=快手极速版-快手果园自动种植, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
+"38 9-19 * * * https://raw.githubusercontent.com/hmhboy530/ks/main/ks_jsb.js, tag=快手极速版",
+"22 10-20 * * * https://raw.githubusercontent.com/hmhboy530/ks/main/ks_pt.js, tag=快手",
+"0 55 8-22 * * * https://raw.githubusercontent.com/hmhboy530/ks/main/ksjsb_100.js, tag=快手极速版-提现100元, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
+"2 0 0,10,16,22 * * * https://raw.githubusercontent.com/hmhboy530/ks/main/ksjsb_zzz.js, tag=快手极速版-周周赚十五万金币, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
 "22 22 2-6,13-20 * * * https://raw.githubusercontent.com/258404256/For-own-use/main/Quantumult/Scripts/ks/ksjsb10.js,tag=快手极速版-解密版",
     ]
 }
