@@ -98,7 +98,6 @@
 "*/5 7-22 * * * http://script.frp.aiuyo.com:8680/scripts/txs.js, tag=淘小说",
 "*/60 0 * * * https://raw.githubusercontent.com/pwbty/surge_script/efb2bcbdcabe0efba9257f74593ddc39aca8cfe6/qtt/qtt.js, tag=趣头条",
 "*/10 5-23 * * * * * * http://script.frp.aiuyo.com:8680/scripts/slyd.js, tag=书路阅读",
-"*/5 * * * * * https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js, tag=抖音极速版, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/dyjsb.png",
       
 "0 55 8-22 * * * https://github.com/JDWXX/jd_job/blob/master/ks/ks_fruit.js, tag=快手极速版-快手果园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
 "0 55 7 * * * https://github.com/JDWXX/jd_job/blob/master/ks/ks_fruit_zz.js, tag=快手极速版-快手果园自动种植, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
