@@ -3,7 +3,6 @@
     "description":"https://github.com/oatsad/QX/task.json",
     "task":[ 
 "34 7 * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/weibo.js, tag=新浪微博, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, enabled=true",
-"0 0-23/4 * * * https://raw.githubusercontent.com/KingRan/KR/main/jd_cash_freesoul.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
 
 
 
