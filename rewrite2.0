@@ -1,0 +1,44 @@
+
+
+hostname =
+
+
+//////////淘宝//////////
+# 淘宝去广告 https://github.com/yyn618/QuantumultX-Script/blob/4430d62d464dfbcc3a669397b6819c7909e96910/Script/JS_Ad.conf#L114)
+# hostname = gw.alicdn.com,heic.alicdn.com
+^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/.+\.jpg_(9\d{2}|\d{4}) url reject-dict
+^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_(9\d{2}|\d{4}) url reject-dict
+^https:\/\/gw.alicdn.com\/tfs\/.+-1125-1602 url reject
+
+
+//////////闲鱼//////////
+# 闲鱼去广告 https://github.com/yyn618/QuantumultX-Script/blob/4430d62d464dfbcc3a669397b6819c7909e96910/Script/JS_Ad.conf#L120
+^https:\/\/gw.alicdn.com\/mt\/ url reject
+^https:\/\/gw.alicdn.com\/tfs\/.+\d{3,4}-\d{4} url reject
+^https:\/\/gw.alicdn.com\/tps\/.+\d{3,4}-\d{4} url reject
+
+
+//////////美团//////////
+# 美团去广告 https://github.com/yyn618/QuantumultX-Script/blob/4430d62d464dfbcc3a669397b6819c7909e96910/Script/JS_Ad.conf#L134
+# hostname = elemecdn.com, elecfans.com
+^https:\/\/p\d.meituan.net\/(mmc|wmbanner)\/ url reject
+^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/.+\.(gif|jpg|jpg\.webp)$ url reject
+^https?:\/\/p\d\.meituan\.net\/movie\/[A-Za-z0-9]+\.jpg\?may_covertWebp url reject
+^https?:\/\/s3plus\.meituan\.net\/.+\/linglong\/.+\.(gif|jpg|mp4) url reject
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
