@@ -9,9 +9,9 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 10 0 * * * https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.js, tag=伊利乳品, img-url=https://raw.githubusercontent.com/id77/QuantumultX/master/icon/yiLi.png, enabled=true
 00 10 * * * https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.js, tag=霸王茶姬小程序签到, img-url=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.png, enabled=true
 40 8 * * * https://raw.githubusercontent.com/Crazy-Z7/Task/main/Tuhyche.js, tag=途虎养车积分签到, img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0905.jpeg, enabled=true
-10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/citybox/citybox.js, tag=citybox-签到
+10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/citybox/citybox.js, tag=citybox-签到, enabled=true
 1 0 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/wbzj.js, tag=腕表之家签到, enabled=true
-
+5 0 * * * https://raw.githubusercontent.com/oatsad/QX/main/js/elm_sign.js, tag=饿了么, enabled=true
 
 
 
