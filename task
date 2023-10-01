@@ -12,7 +12,7 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/citybox/citybox.js, tag=citybox-签到, enabled=true
 1 0 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/wbzj.js, tag=腕表之家签到, enabled=true
 1 0 * * * https://raw.githubusercontent.com/oatsad/QX/main/js/WeChatLottery_new.js, tag=活动抽奖, enabled=true
-
+1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/HEYTEA/HEYTEA.js, tag=喜茶, enabled=true
 
 
 
