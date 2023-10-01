@@ -13,6 +13,14 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 1 0 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/wbzj.js, tag=腕表之家签到, enabled=true
 5 0 * * * https://raw.githubusercontent.com/oatsad/QX/main/js/elm_sign.js, tag=饿了么, enabled=true
 0 21,31,50 0-22 * * * https://raw.githubusercontent.com/oatsad/QX/main/js/tls.js, tag=特仑苏, enabled=true
+0 0 * * * https://raw.githubusercontent.com/oatsad/QX/main/js/xc_sign.js, tag=携程签到, enabled=true
+35 11 * * 1-5 https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance_guess.js, tag=腾讯微证券, img-url=https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png, enabled=true
+1 0 * * * https://raw.githubusercontent.com/oatsad/QX/main/js/WeChatLottery_new.js, tag=活动抽奖, enabled=true
+
+
+
+
+
 
 
 [task_local]
