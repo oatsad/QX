@@ -13,11 +13,12 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 1 0 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/wbzj.js, tag=腕表之家签到, enabled=true
 1 0 * * * https://raw.githubusercontent.com/oatsad/QX/main/js/WeChatLottery_new.js, tag=活动抽奖, enabled=true
 1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/HEYTEA/HEYTEA.js, tag=喜茶, enabled=true
-
-
-
-
-
+52 7 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/Hisense.js, tag=海信爱家, img-url=https://github.com/FoKit/Scripts/blob/main/images/hisense.png?raw=true, enabled=true
+1 0 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/zmhy.js, tag=中免会员小程序签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zmhy.png, enabled=true
+0 6,8 * * * https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.mallcoin.task.js, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Mtmc.png, tag=美图买菜任务, enabled=true
+30 0 7 * * * https://raw.githubusercontent.com/Raphael689/RW/master/Scripts/tls.js, tag=特仑苏官方商城,img-url=https://raw.githubusercontent.com/Raphael689/RW/master/iCons/tls.png, enabled=true
+30 0 6 * * * https://raw.githubusercontent.com/Raphael689/RW/master/Scripts/yqslhy.js, tag=元气森林会员中心,img-url=https://raw.githubusercontent.com/Raphael689/RW/master/iCons/yqsl.png, enabled=true
+21 0 5 * * * https://gist.githubusercontent.com/Sliverkiss/e427dc3164d0c008f8d282f180d7fc00/raw/280945016940399a593955e40ce0d4591a5292c5/hsay.js, tag=沪上阿姨小程序签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hsay.png, enabled=true
 
 [task_local]
 5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png, enabled=true
