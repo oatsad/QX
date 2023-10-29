@@ -20,7 +20,13 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 30 0 6 * * * https://raw.githubusercontent.com/Raphael689/RW/master/Scripts/yqslhy.js, tag=元气森林会员中心,img-url=https://raw.githubusercontent.com/Raphael689/RW/master/iCons/yqsl.png, enabled=true
 21 0 5 * * * https://gist.githubusercontent.com/Sliverkiss/e427dc3164d0c008f8d282f180d7fc00/raw/280945016940399a593955e40ce0d4591a5292c5/hsay.js, tag=沪上阿姨小程序签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hsay.png, enabled=true
 30 10 * * * https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/100269fc92d8ed607fd5f105c2c5b32876101ff1/dlm.js, tag=达美乐小游戏，enabled=true
-
+30 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png, enabled=true
+57 21 * * * https://raw.githubusercontent.com/smallfawn/QLScriptPublic/main/bnmdhg_wx.js, tag=巴奴毛肚火锅签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Bnmdhg.png, enabled=true
+0 0 12 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团签到, img-url=https://qxnav.com/rules/QuantumultX/img/meituan.png, enabled=true
+10 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js, tag=B站每日等级任务, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/bilibili.png, enabled=true
+11 8 * * * https://gist.githubusercontent.com/Sliverkiss/b1b8b87351ff3aca189c5addaa054430/raw/stlxz.js, tag=STLXZ签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Stlxz.png, enabled=true
+11 10 * * * https://gist.githubusercontent.com/Sliverkiss/3d9c00790143eba146c3ba798eda4696/raw/switch520.js, tag=Switch520签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Switch.png, enabled=true
+21 30 0 * * * https://gist.githubusercontent.com/Sliverkiss/f533ada8d658a0cbbe4b2e791c3b0ac8/raw/be3d9b74fe1cde69e6d39b599e5526110c996958/nestle.js, tag=雀巢会员俱乐部签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Nestle.png, enabled=true
 
 
 [task_local]
