@@ -23,6 +23,8 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 10 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js, tag=B站每日等级任务, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/bilibili.png, enabled=true
 21 30 0 * * * https://gist.githubusercontent.com/Sliverkiss/f533ada8d658a0cbbe4b2e791c3b0ac8/raw/be3d9b74fe1cde69e6d39b599e5526110c996958/nestle.js, tag=雀巢会员俱乐部签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Nestle.png, enabled=true
 15 10 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js, tag=托迈酷客, enabled=true
+5 0 * * * https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/check_in/klcw/klcw.js, tag=酷乐潮玩小程序
+
 
 [task_local]
 5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png, enabled=true
