@@ -1,5 +1,6 @@
 
 [task_local]
+30 8 * * * https://raw.githubusercontent.com/Crazy-Z7/Task/main/Kafx.js, tag=卡夫享积分签到, img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0909.jpeg, enabled=true
 21 10 * * * https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js, tag=达美乐披萨, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Dlm.png, enabled=true
 20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js, tag=慢慢买, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanmai.png, enabled=true
 30 6,8,10,12 * * * https://raw.githubusercontent.com/passerby-b/mt_fruit/main/mt_fruit.js, tag=美团买菜果园, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png, enabled=true
