@@ -1,6 +1,4 @@
 /*
-Quantumult X 本地脚本/*
-Quantumult X 本地脚本
 [task_local]
 # 三得利签到和抢购任务。
 # 签到任务: 每天8:40和17:40执行
